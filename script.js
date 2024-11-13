@@ -19,7 +19,7 @@ document.getElementById("responseForm").addEventListener("submit", function(even
     fetch(`https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`)
         .then(response => {
             if (response.ok) {
-                document.getElementById("message").innerText = "Cảm ơn bé đã trả lời! Anh đã nhận được thông báo.";
+                document.getElementById("message").innerText = "Cảm ơn cậu đã trả lời! Tớ đã nhận được thông báo rồi á😍";
             } else {
                 document.getElementById("message").innerText = "Có lỗi xảy ra, vui lòng thử lại sau.";
             }
