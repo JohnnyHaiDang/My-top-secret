@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhấn vào ikkk, năn nỉ mòoo🥺</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lời mời đặc biệt💖</h1>
+        <p>Bé iu ơi, anh muốn mời bé đi chơi á👉👈. Hy vọng chúng ta sẽ có một buổi hẹn đáng nhớ ạ😉</p>
+        
+        <form id="responseForm">
+            <div class="question">
+                <label>Bé có muốn đi không🤔</label><br>
+                <span class="radio-container">
+                    <input type="radio" id="yes" name="response" value="Có" required>
+                    <label for="yes">Có</label>
+                </span>
+                <span class="radio-container">
+                    <input type="radio" id="no" name="response" value="Không">
+                    <label for="no">Không</label>
+                </span>
+                
+            </div>
+
+            <div class="question">
+                <label for="date">Chọn ngày hẹn📅</label><br>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="question">
+                <label for="time">Chọn thời gian⏲</label><br>
+                <input type="time" id="time" name="time">
+            </div>
+
+            <div class="question">
+                <label for="location">Địa điểm📍</label><br>
+                <input type="text" id="location" name="location" placeholder="Nhập địa điểm...">
+            </div>
+            
+            <button type="submit">Gửi cho anh phản hồi nhaaa</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
