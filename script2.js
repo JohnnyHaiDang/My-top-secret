@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     noButton.addEventListener("click", function() {
         this.parentElement.querySelector('label[for="no"]').textContent = "Có ❤️";
-        this.checked = false;  // Bỏ chọn "Không"
+        this.checked = false;
         document.getElementById("yes").checked = true;
     });
 });
